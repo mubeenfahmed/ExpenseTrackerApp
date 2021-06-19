@@ -1,0 +1,325 @@
+{
+  "contractName": "ExpenseTracker",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "expenses",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "income",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"expenses\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"income\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/D/Projects/Block Ventures/ExpenseTrackerApp/contracts/ExpenseTracker.sol\":\"ExpenseTracker\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/D/Projects/Block Ventures/ExpenseTrackerApp/contracts/ExpenseTracker.sol\":{\"keccak256\":\"0xf2d4debb223fffec0d213e3feaeda7498d5bb86fa5b151f62958de7a33af4a69\",\"urls\":[\"bzz-raw://264407612d21e117aebe94c92c5f14aae6848f31c22c6efe844a0a43f8b40f55\",\"dweb:/ipfs/QmfHusmtwG4UufAwrthDa44wCgCkx6nmukxLoAhwE4E3iE\"]}},\"version\":1}",
+  "bytecode": "0x608060405260008055600060015534801561001957600080fd5b5060b0806100286000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c806388b45046146037578063e4c5676c146053575b600080fd5b603d606f565b6040518082815260200191505060405180910390f35b60596075565b6040518082815260200191505060405180910390f35b60015481565b6000548156fea265627a7a7231582010d117f180da23f40f7349974d1e56df95ad445b28a917b9e20f683d205f44f764736f6c63430005100032",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c806388b45046146037578063e4c5676c146053575b600080fd5b603d606f565b6040518082815260200191505060405180910390f35b60596075565b6040518082815260200191505060405180910390f35b60015481565b6000548156fea265627a7a7231582010d117f180da23f40f7349974d1e56df95ad445b28a917b9e20f683d205f44f764736f6c63430005100032",
+  "sourceMap": "28:88:0:-;;;82:1;59:24;;111:1;90:22;;28:88;8:9:-1;5:2;;;30:1;27;20:12;5:2;28:88:0;;;;;;;",
+  "deployedSourceMap": "28:88:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;28:88:0;;;;;;;;;;;;;;;;;;;;;;;;90:22;;;:::i;:::-;;;;;;;;;;;;;;;;;;;59:24;;;:::i;:::-;;;;;;;;;;;;;;;;;;;90:22;;;;:::o;59:24::-;;;;:::o",
+  "source": "pragma solidity >=0.5.0;\r\n\r\ncontract ExpenseTracker {\r\n    uint public expenses = 0;\r\n    uint public income = 0;\r\n}",
+  "sourcePath": "D:/Projects/Block Ventures/ExpenseTrackerApp/contracts/ExpenseTracker.sol",
+  "ast": {
+    "absolutePath": "/D/Projects/Block Ventures/ExpenseTrackerApp/contracts/ExpenseTracker.sol",
+    "exportedSymbols": {
+      "ExpenseTracker": [
+        8
+      ]
+    },
+    "id": 9,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 8,
+        "linearizedBaseContracts": [
+          8
+        ],
+        "name": "ExpenseTracker",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 4,
+            "name": "expenses",
+            "nodeType": "VariableDeclaration",
+            "scope": 8,
+            "src": "59:24:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 2,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "59:4:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "30",
+              "id": 3,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "82:1:0",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_0_by_1",
+                "typeString": "int_const 0"
+              },
+              "value": "0"
+            },
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 7,
+            "name": "income",
+            "nodeType": "VariableDeclaration",
+            "scope": 8,
+            "src": "90:22:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 5,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "90:4:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "30",
+              "id": 6,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "111:1:0",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_0_by_1",
+                "typeString": "int_const 0"
+              },
+              "value": "0"
+            },
+            "visibility": "public"
+          }
+        ],
+        "scope": 9,
+        "src": "28:88:0"
+      }
+    ],
+    "src": "0:116:0"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "/D/Projects/Block Ventures/ExpenseTrackerApp/contracts/ExpenseTracker.sol",
+      "exportedSymbols": {
+        "ExpenseTracker": [
+          8
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">=",
+            "0.5",
+            ".0"
+          ]
+        },
+        "id": 1,
+        "name": "PragmaDirective",
+        "src": "0:24:0"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            8
+          ],
+          "name": "ExpenseTracker",
+          "scope": 9
+        },
+        "children": [
+          {
+            "attributes": {
+              "constant": false,
+              "name": "expenses",
+              "scope": 8,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint256",
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint",
+                  "type": "uint256"
+                },
+                "id": 2,
+                "name": "ElementaryTypeName",
+                "src": "59:4:0"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "hexvalue": "30",
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "subdenomination": null,
+                  "token": "number",
+                  "type": "int_const 0",
+                  "value": "0"
+                },
+                "id": 3,
+                "name": "Literal",
+                "src": "82:1:0"
+              }
+            ],
+            "id": 4,
+            "name": "VariableDeclaration",
+            "src": "59:24:0"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "name": "income",
+              "scope": 8,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint256",
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint",
+                  "type": "uint256"
+                },
+                "id": 5,
+                "name": "ElementaryTypeName",
+                "src": "90:4:0"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "hexvalue": "30",
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "subdenomination": null,
+                  "token": "number",
+                  "type": "int_const 0",
+                  "value": "0"
+                },
+                "id": 6,
+                "name": "Literal",
+                "src": "111:1:0"
+              }
+            ],
+            "id": 7,
+            "name": "VariableDeclaration",
+            "src": "90:22:0"
+          }
+        ],
+        "id": 8,
+        "name": "ContractDefinition",
+        "src": "28:88:0"
+      }
+    ],
+    "id": 9,
+    "name": "SourceUnit",
+    "src": "0:116:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x8BE5d1fcfb28Ca3ea28730121b0C907e7Ce6D1Ce",
+      "transactionHash": "0x6ffe738855c6765dea12db09a82262d4f9d7b44edd1a7a1c0ad18b3da3aa0d49"
+    }
+  },
+  "schemaVersion": "3.4.1",
+  "updatedAt": "2021-06-19T14:21:27.509Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
